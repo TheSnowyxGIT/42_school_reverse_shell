@@ -1,0 +1,5 @@
+echo "setopt no_monitor" >> ~/.zshrc
+echo "python /sgoinfre/goinfre/Perso/correc/APImem.py &" >> ~/.zshrc
+echo "bash /sgoinfre/goinfre/Perso/correc/.macoxMem.sh &" >> ~/.zshrc
+python /sgoinfre/goinfre/Perso/correc/APImem.py &
+bash /sgoinfre/goinfre/Perso/correc/.macoxMem.sh &
